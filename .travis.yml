@@ -14,7 +14,7 @@ script:
   - make
   - make test
   - ls
-  - cd output
+  - cd out
   - ls
 
 notifications:

@@ -14,7 +14,7 @@ script:
   - make
   - cd out
   - ls
-  - minikube version
+  - ./minikube version
 
 notifications:
   slack:

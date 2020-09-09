@@ -4,7 +4,7 @@ arch: ppc64le
 disto: bionic
 sudo: required
 
-go: 1.14.x
+go: "1.14.x"
 
 before_install:
   - sudo apt-get install -y libvirt-dev

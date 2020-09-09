@@ -12,6 +12,10 @@ script:
   - git clone https://github.com/kubernetes/minikube.git
   - cd minikube
   - make
+  - make test
+  - ls
+  - cd output
+  - ls
 
 notifications:
   slack:

@@ -1,7 +1,7 @@
 language: go
 os: linux
 arch: ppc64le
-disto: bionic
+dist: bionic
 sudo: required
 
 go: "1.14.x"
